@@ -55,8 +55,7 @@ The first line of input consists of six real numbers `sx,sy,sz,bx,by,bz` and a s
 The next `2n` lines describe each of the asteroids, with one asteroid per pair of lines. The first line of each pair contains six real numbers `px,py,pz,dx,dy,dz` and a single integer m, separated by spaces, giving the position `(px,py,pz)` and direction `(dx,dy,dz)` of the asteroid’s center of mass, as well as the number of points `m` on the asteroid’s convex hull `(4≤m≤8)`. The second line of each pair contains `3m` real numbers, giving m triples of points `ci,x,ci,y,ci,z` , all separated by spaces. These are the 3D coordinates of the points on the convex hull of the asteroid, taken at the time of the scan. The asteroid center of mass is located somewhere within the convex hull (but not necessarily at the geometric center).
 
 All real values in the input are in the range `[−2⋅10^6,2⋅10^6]`
-and have at most 6 digits after the decimal point. Each asteroid’s direction is a unit vector, up to numerical tolerance, and will satisfy \left| \sqrt{d_ x^2 + d_ y^2 +
-    d_ z^2} - 1\right| \leq 10^{-6}.
+and have at most 6 digits after the decimal point. Each asteroid’s direction is a unit vector, up to numerical tolerance, and will satisfy 
 
 
 
