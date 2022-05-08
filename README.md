@@ -2,7 +2,7 @@
 Collection of questions used during the ICPC North America Qualifier 2021
 
 Contest website with original problems/example input:  
-https://naq21.kattis.com/
+https://naq21.kattis.com/problems
 
 
 ## Problem A - Alien Integers
